@@ -37,5 +37,6 @@ dnf install -C -y $HOME/rpmbuild/RPMS/*/*.rpm
 cp $HOME/rpmbuild/RPMS/*/*.rpm .
 
 # run the installed tests
+mkdir -p /var/run/dbus
 dbus-daemon --system --fork
 gnome-desktop-testing-runner fwupd
