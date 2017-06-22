@@ -23,6 +23,7 @@ RUN dnf --enablerepo=updates-testing -y install \
 	gobject-introspection-devel \
 	gpgme-devel \
 	gtk-doc \
+	jq \
 	libappstream-glib-devel \
 	libarchive-devel \
 	libgudev1-devel \
